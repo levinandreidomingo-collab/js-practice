@@ -38,10 +38,10 @@ console.log(fullName.includes("Kishi"));
 console.log(" Andrei ".trim());
 
 
-const price = 10;
+const price1 = 10;
 const qty1 = 100;
-console.log(price * qty1);
-console.log(100 - price * qty1);
+console.log(price1 * qty1);
+console.log(100 - price1 * qty1);
 console.log(17 / 5);
 console.log(17 % 5);
 console.log(2 ** 3);

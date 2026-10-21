@@ -1,4 +1,4 @@
-const item = Skyflakes;
+const item = "Skyflakes";
 const price = 8;
 let qty = 3;
 console.log(qty)
