@@ -15,16 +15,16 @@ baon = baon - 30; // bought lunch
 console.log(baon);
 
 
-const city = "Quezon" + "City"; // string
-const age = 18; // number
+const city = "Cebu"; // string
+const age1 = 18; // number
 const isStudent = true; // boolean
 let nickname; // undefined
 const middleName = null; // null
 console.log(typeof city);
-console.log(typeof age);
+console.log(typeof age1);
 console.log(typeof isStudent);
 console.log(typeof nickname);
-console.log(typeof middleName);
+console.log(typeof middleName); 
 
 
 const firstName = "Andrei";
@@ -39,9 +39,9 @@ console.log(" Andrei ".trim());
 
 
 const price = 10;
-const qty = 100;
-console.log(price * qty);
-console.log(100 - price * qty);
+const qty1 = 100;
+console.log(price * qty1);
+console.log(100 - price * qty1);
 console.log(17 / 5);
 console.log(17 % 5);
 console.log(2 ** 3);
@@ -57,9 +57,25 @@ console.log("250" + 100);
 console.log(Number("250") + 100);
 
 
-const grade = 85;
+const grade = 90;
 console.log(grade >= 75);
 console.log(grade === 75);
 console.log(grade !== 75-100);
 console.log(5 === "5");
 console.log(5 == "5");
+
+
+const hour = 14;
+if (hour < 12) {
+console.log("Magandang umaga!");
+} else if (hour < 18) {
+console.log("Magandang hapon!");
+} else {
+console.log("Magandang gabi!");
+}
+const age = 17;
+const hasId = true;
+if (age >= 18 && hasId) {
+console.log("You can vote.");
+} else {
+console.log("Not yet. Wait a bit!");}
