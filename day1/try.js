@@ -59,7 +59,7 @@ console.log(Number("250") + 100);
 
 const grade = 85;
 console.log(grade >= 75);
-console.log(grade === 100);
-console.log(grade !== 100);
+console.log(grade === 75);
+console.log(grade !== 75-100);
 console.log(5 === "5");
 console.log(5 == "5");
