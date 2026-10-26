@@ -1,8 +1,7 @@
 const total3 = 67;
 const payment = 100;
 let sukli = payment - total3;
-
-console.log("Sukli: P" + sukli);
+const change = sukli
 
 const twenties = Math.floor(sukli / 20);
 sukli %= 20;
@@ -15,7 +14,8 @@ sukli %= 5;
 
 const ones = sukli;
 
-console.log("P20 x " + twenties);
-console.log("P10 x " + tens);
-console.log("P5 x " + fives);
-console.log("P1 x " + ones);
+console.log("Sukli: ₱" + change);
+console.log("₱20 x " + twenties);
+console.log("₱10 x " + tens);
+console.log("₱5 x " + fives);
+console.log("₱1 x " + ones);
